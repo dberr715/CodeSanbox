@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Online Mood Ring</h1>
+    <form>
+      <fieldset>
+        <legend>
+          What is your mood?
+        </legend>
+        <label>
+          <input type="radio" name="mood" value="Off the charts Happy" />
+          Off the charts Happy
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="mood" value="Kinda mehh" />
+          Kinda mehh
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="mood"
+            value="On the
+          struggle bus"
+          />
+          On the Struggle Bus
+        </label>
+        <br />
+        <button id="showMood" type="button">Show Mood</button>
+      </fieldset>
+    </form>
+    <p>
+      My Current Mood is:
+      <span id="myMood" class="default-mood mood">NOT SET</span>
+    </p>
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>

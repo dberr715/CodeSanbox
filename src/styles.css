@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+.default-mood {
+  background-color: #2e77ff;
+  color: white;
+}
+
+.mood {
+  padding: 8px;
+  line-height: 1;
+}
+
+.off-the-charts {
+  background-color: #e051ff;
+}
+
+.kinda-mehh {
+  background-color: green;
+}
+
+.on-the-bus {
+  background-color: red;
+}
